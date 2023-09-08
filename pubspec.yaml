@@ -1,0 +1,67 @@
+name: pokemon
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  # This package is the widget we use to notify the user when there is an error.
+  another_flushbar: ^1.12.30
+  auto_route: ^7.8.3
+  # This package shows the number of pokemons added to favorites in the pokemons view.
+  badges: ^3.1.2
+  cupertino_icons: ^1.0.5
+  dio: ^5.3.2
+  # This package provides localization.
+  easy_localization: ^3.0.2
+  # This package compares two models and checks if they are equal to each other
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  # This package adds some animations
+  flutter_animator: ^3.2.2
+  # This package provides us to use .env files
+  flutter_dotenv: ^5.1.0
+  flutter_secure_storage: ^9.0.0
+  # This package provides Dependency Injection. 
+  get_it: ^7.6.0
+  # This packages provide storage.
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # This package automates Dependency Injection and adds some annotations.
+  # (@Injectable(), @Singleton(), @injectable, @singleton)
+  injectable: ^2.3.0
+  json_annotation: ^4.8.1
+  # This package adds jumping Dot animation.
+  jumping_dot: ^0.0.6
+  # This package adds some extensions.
+  # (widget extension, context extension, string extension, integer extension).
+  kartal: ^3.4.1
+  logger: ^1.1.0
+  # This package provides state management
+  provider: ^6.0.5
+  # This package generates a random uuid.
+  uuid: ^3.0.7
+
+dev_dependencies:
+  auto_route_generator: ^7.3.1
+  # This package generates fromJson and toJson methods of the models.
+  build_runner: ^2.4.6
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  # This package automates Dependency Injection. (You should review startup_manager.config.dart)
+  injectable_generator: ^2.4.0
+  json_serializable: ^6.7.1
+  # This package is alternative to flutter_lints and more powerful than flutter_lints. 
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/translations/

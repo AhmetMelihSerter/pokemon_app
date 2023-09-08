@@ -1,0 +1,39 @@
+{
+    "dashboard": {
+        "dashboard_view": {
+            "bottom_navigation": {
+                "item_pokemons": "Pokemons",
+                "item_favorites": "Favorites"
+            }
+        },
+        "pokemons": {
+            "pokemons_view": {
+                "exceptions": {
+                    "url_not_found": "Url Not Found"
+                }
+            },
+            "pokemon_detail_view": {
+                "stats": {
+                    "stats_table_name": "Stats",
+                    "stats_subtitle_name": "Name",
+                    "stats_subtitle_slot": "Slot",
+                    "stats_subtitle_hidden": "Hidden",
+                    "stats_subtitle_hidden_yes": "Hidden",
+                    "stats_subtitle_hidden_no": "Not Hidden"
+                },
+                "abilities": {
+                    "abilities_table_name": "Abilities",
+                    "abilities_subtitle_name": "Name",
+                    "abilities_subtitle_stats": "Stats",
+                    "abilities_subtitle_effort": "Effort"
+                }
+            }
+        },
+        "favorites_view": {
+            "exceptions": {
+                "url_not_found": "Url Not Found"
+            },
+            "app_bar_title": "Favorites"
+        }
+    }
+}

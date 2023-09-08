@@ -1,0 +1,39 @@
+{
+    "dashboard": {
+        "dashboard_view": {
+            "bottom_navigation": {
+                "item_pokemons": "Pokemonlar",
+                "item_favorites": "Favoriler"
+            }
+        },
+        "pokemons": {
+            "pokemons_view": {
+                "exceptions": {
+                    "url_not_found": "Url Bulunamadı"
+                }
+            },
+            "pokemon_detail_view": {
+                "stats": {
+                    "stats_table_name": "İstatistikler",
+                    "stats_subtitle_name": "Adı",
+                    "stats_subtitle_slot": "Yuva",
+                    "stats_subtitle_hidden": "Gizli Mi?",
+                    "stats_subtitle_hidden_yes": "Gizlenmiş",
+                    "stats_subtitle_hidden_no": "Gizlenmemiş"
+                },
+                "abilities": {
+                    "abilities_table_name": "Yetenekler",
+                    "abilities_subtitle_name": "Adı",
+                    "abilities_subtitle_stats": "İstatistikler",
+                    "abilities_subtitle_effort": "Efor"
+                }
+            }
+        },
+        "favorites_view": {
+            "exceptions": {
+                "url_not_found": "Url Bulunamadı"
+            },
+            "app_bar_title": "Favoriler"
+        }
+    }
+}
